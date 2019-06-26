@@ -1,0 +1,13 @@
+#! validate-crd: deploy/chart/templates/0000_30_02-clusterserviceversion.crd.yaml
+#! parse-kind: ClusterServiceVersion
+apiVersion: operators.coreos.com/v1alpha1
+kind: ClusterServiceVersion
+metadata:
+  # The version value is substituted by the ART pipeline
+  name: myoperatorname.v4.2.0
+  namespace: placeholder
+  # The version value is substituted by the ART pipeline
+  version: 4.2.0
+  annotations:
+    # The version value is substituted by the ART pipeline
+    olm.skipRange: ">=4.1.0 <4.2.0"
