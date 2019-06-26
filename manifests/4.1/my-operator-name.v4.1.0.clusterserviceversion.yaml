@@ -6,9 +6,9 @@ metadata:
   # The version value is substituted by the ART pipeline
   name: myoperatorname.v4.1.0
   namespace: placeholder
-  # The version value is substituted by the ART pipeline
-  version: 4.1.0
   annotations:
-    capabilities: Seamless Upgrades
     # The version value is substituted by the ART pipeline
     olm.skipRange: ">=4.1.0 <4.1.0"
+spec:
+  # The version value is substituted by the ART pipeline
+  version: 4.1.0
