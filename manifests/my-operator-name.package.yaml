@@ -1,6 +1,6 @@
-#! package-manifest: ./deploy/chart/catalog_resources/rh-operators/myoperatorname.v4.2.0.clusterserviceversion.yaml
+#! package-manifest: ./deploy/chart/catalog_resources/rh-operators/myoperatorname.v4.1.0.clusterserviceversion.yaml
 packageName: my-operator-name
 channels:
-- name: 4.2
+- name: 4.1
 # this value is replaced by the ART pipeline
-  currentCSV: myoperatorname.v4.2.0
+  currentCSV: myoperatorname.v4.1.0
